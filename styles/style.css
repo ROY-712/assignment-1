@@ -36,7 +36,7 @@ nav ul {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  margin-right;: 10px 
+  margin-right: 10px 
 }
 .btn-col:hover {
     background-color: #6596b5;
@@ -130,9 +130,7 @@ main {
 }
 /* section 3 star image part*/
 .test{
-    /* background-color: #f0f3f4; */
     padding: 20px 20px 10px 20px;
-    /* border-radius: 30px; */
     margin: 20px auto;
     max-width: 1000px; 
 }
@@ -240,7 +238,7 @@ main {
   border-radius: 5px;
   max-width: 800px;
   width: 100%;
-  padding: 20px 45px;
+  padding: 10px 45px;
   font-size: 14px;
   border: none;
   margin-bottom: 5px;
@@ -248,7 +246,7 @@ main {
 }
 
 .info textarea {
-  min-height: 120px;
+  min-height: 80px;
 }
 
 .info button {
@@ -260,11 +258,40 @@ main {
   border: none;
   margin-bottom: 5px;
   border-radius: 10px;
-  /* cursor: pointer;
-  transition: background-color 0.3s ease; */
+  /* cursor: pointer; */
 }
 
 .info button:hover {
   background-color: #9191c6;
 }
-/*  */
+/* footer */
+footer {
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 40px;
+  color: #252432;
+  text-align: center;
+}
+
+footer h1 {
+  color: #4E47FF;
+  font-size: 60px;
+  font-weight: 900;
+  padding: 5px;
+}
+
+footer p {
+  color: #626567;
+  font-size: medium;
+  font-weight: 300;
+  margin-top: 0%;
+  padding-top: 0;
+}
+
+.footer-link {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
