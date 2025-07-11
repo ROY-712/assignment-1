@@ -38,6 +38,9 @@ nav ul {
   border-radius: 5px;
   margin-right;: 10px 
 }
+.btn-col:hover {
+    background-color: #6596b5;
+  }
 /* banner */
 
 .banner {
@@ -206,3 +209,62 @@ main {
     width: 700px;
     border-radius:  30px;
 }
+/* section 5 form create */
+.former {
+  text-align: left;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.form-contain {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.form-text h1 {
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px 45px;
+}
+
+.info input[type="text"],
+.info input[type="email"],
+.info textarea {
+  display: block;
+  background-color: #e8e9ff;
+  border-radius: 5px;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px 45px;
+  font-size: 14px;
+  border: none;
+  margin-bottom: 5px;
+   resize: vertical; 
+}
+
+.info textarea {
+  min-height: 120px;
+}
+
+.info button {
+  width: 100%;
+  padding: 10px 60px;
+  background-color: #4E47FF;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  /* cursor: pointer;
+  transition: background-color 0.3s ease; */
+}
+
+.info button:hover {
+  background-color: #9191c6;
+}
+/*  */
